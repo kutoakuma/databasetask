@@ -14,6 +14,7 @@ Advisor VARCHAR(100) NOT NULL
 describe Majors;
 ~~~
 ## Result
+~~~
 +---------+--------------+------+-----+---------+-------+
 | Field   | Type         | Null | Key | Default | Extra |
 +---------+--------------+------+-----+---------+-------+
