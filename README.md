@@ -12,8 +12,8 @@ By isolating characteristics that depend solely on a portion of the composite ke
 ### Third Normal Form (3NF)
 Transitive dependency StudentID → Major → Advisor was removed by creating a separate Majors table
 ## SCHEMAS
-### Majors(Major,Advisor)
-## SQLQUERY:
+## Majors(Major,Advisor)
+### SQLQUERY:
 ~~~
 CREATE TABLE Majors (
 Major VARCHAR(50) PRIMARY KEY,
