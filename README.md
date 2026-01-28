@@ -1,5 +1,16 @@
 # databasetask
 # Introduction
+This assignment's goal is to use MySQL to create the final schema after normalizing an unnormalized university registration dataset into First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF).
+
+### Frist Normal Form (1NF)
+There are no repeated groups and all characteristics have atomic values. As a result, 1NF is already satisfied by the provided table.
+
+
+### Second Normal Form
+By isolating characteristics that depend solely on a portion of the composite key (StudentID, CourseID), partial dependencies were eliminated. Students, Courses, and Enrollments were separated out of the table.
+
+### Third Normal Form (3NF)
+Transitive dependency StudentID → Major → Advisor was removed by creating a separate Majors table
 ## SCHEMAS
 ### Majors(Major,Advisor)
 ## SQLQUERY:
